@@ -1,0 +1,17 @@
+bot:
+  token: "1492414437:ANENlbz6JYbghjiKhTRsyp3JSp_zIqAk733"
+  admin_ids:
+    - 1122334455
+
+db:
+  host: "localhost"
+  user: "user"
+  password: "idontknow"
+  database: "bot"
+
+logging:
+  level: "DEBUG"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {message} | {file.path}:{function}"
+  log_file: "logs/{time:YYYY-MM-DD-HH-mm-ss}.log"
+  rotation: "64 KB"
+  compression: "zip"
